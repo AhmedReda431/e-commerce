@@ -1,0 +1,319 @@
+body{
+    text-transform:capitalize;
+}
+.page-item.disabled .page-link{
+    border: none;
+}
+.page-item .page-link{
+    color:#212529;
+}
+header{
+    padding: 2% 0;
+    line-height: 2;
+}
+header .header-holder p{
+    display: inline-block;
+}
+header .header-holder input{
+    position: relative;
+    border-radius:20px;
+}
+header .header-holder .search button{
+    position: absolute;
+    top: 0px;
+    left: 83%;
+    background-color: #ffbc40;
+    border-radius: 0 20px 20px 0;
+    padding: 6px 12px 6px 22px;
+    color: #fff;
+}
+
+header .header-holder .languages-price select{
+    border: none;
+}
+header .header-holder .languages-price select::after{
+    content: " | " ;
+}
+header .header-holder .languages-price  button:active{
+    background-color: transparent;
+    border: none;
+    color: #000;
+
+}
+/*******************************************************************************/
+.firstHr{
+    margin-top: -20px;
+    margin-bottom: 5px;
+}
+/*******************************************************************************/
+.myNavbar{
+    padding: 10px 0 0;
+    line-height: 2.7;
+}
+.myNavbar a{
+    color: #000;
+}
+.myNavbar .myBrand h5{
+    font-size: 30px;
+}
+
+.myNavbar a:hover{
+    text-decoration: none;
+    color: #000;
+}
+.myNavbar .myNavbar-holder .myBrand{
+    float: left;
+}
+.myNavbar .myNavbar-holder .BrabdLinks{
+    float: left;
+    padding-left: 24%;
+    font-size: 18px;
+    padding-top: 5px;
+}
+.myNavbar .myNavbar-holder .BrabdLinks ul li{
+    float: left;
+    margin-right: 15px;
+}
+.myNavbar .myNavbar-holder .brandFonts{
+    float: right;
+}
+.myNavbar .myNavbar-holder .brandFonts span{
+    margin-right: 15px;
+}
+.myNavbar .myNavbar-holder  .brandFonts .row .col:last-of-type i{
+    position: relative;
+}
+.myNavbar .myNavbar-holder  .brandFonts span{
+    position: absolute;
+    top: 6px;
+    left: 22px;
+    background-color: #ffbc40;
+    border-radius: 50%;
+    padding: 1px 5px;
+    font-size: 15px;
+    width: 18px;
+    height: 18px;
+    color: #fff;
+    line-height: 1;
+}
+/*******************************************************************************/
+.first .first-holder  img{
+    width: 100%;
+    height: 100%;
+}
+.first .first-holder .col-4 .row .col-12:first-of-type{
+    padding-bottom: 23px;
+}
+/*******************************************************************************/
+.second{
+    padding: 3% 0;
+}
+.rating{
+    cursor: pointer;
+}
+.stars-rate{
+    color: #ffbc40;
+    
+}
+.second .second-holder .product-name{
+    font-size: 25px;
+    margin-top: 10px;
+}
+/*******************************************************************************/
+.three .three-holder img{
+    width: 100%;
+    border-radius:0
+}
+/*******************************************************************************/
+.four{
+    padding: 3% 0;
+}
+.four .four-holder .row .col-3{
+    border: 1px solid #333;
+    /* padding: 3% 10px 0%; */
+}
+.four .four-holder aside .aside-header{
+    border-bottom: 1px solid #333;
+    padding: 3% 10px 0%;
+    line-height: 2.3;
+} 
+.four .four-holder aside .asid-title{
+    display: inline-block;
+    float: left;
+}
+.four .four-holder aside .pagination{
+    float: right;
+    margin-bottom: 0;
+}
+.four .four-holder aside .myMediaOne .aside-first-product {
+    padding: 5% 0 0;
+}
+.four .four-holder aside .myMediaOne .aside-first-product img{
+    width: 46%;
+    float: left;
+    margin-right: 18px;
+    height: 100px;
+}
+.four .four-holder aside .myMediaOne .aside-first-product .product-name{
+    margin-bottom: 5px;
+}
+.four .four-holder aside .myMediaOne .asideHr{
+    margin-top: 2rem;
+}
+.four .four-holder .second-cont  .Gallery .myButtons {
+    padding-left: 10px;
+}
+.four .four-holder .second-cont  .Gallery .myButtons .arrival-btn{
+    background-color: transparent;
+    border: 2px solid #ffab10;
+    color: #ffab10;
+}
+.four .four-holder .second-cont  .Gallery .myButtons button{
+    display: inline;
+    float: left;
+    margin: 0;
+    margin-right: 10px;
+    background-color: transparent;
+    border: 2px solid #666;
+    color: #666;
+}
+.four .four-holder .second-cont  .Gallery .straitLine{
+    width: 100%;
+    height: 5px;
+    background-color: #eee;
+    display: inline-block;
+}
+.four .four-holder .second-cont  .Gallery .col-3{
+    border: none;
+}
+.four .four-holder .second-cont  .under-gallery {
+    margin-top: 20px;
+    margin-bottom: 42px;
+}
+.four .four-holder .second-cont  .under-gallery .product-name{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.four .four-holder .second-cont  .galleryCover img{
+    width: 100%;
+    height: 262px;
+}
+/*******************************************************************************/
+.fife .fife-holder img{
+    width: 100%;
+}
+/*******************************************************************************/
+.sex{
+    padding: 3% 0;
+}
+.sex .sex-holder .best .best-p{
+    display: inline-block;
+    float: left;
+}
+.sex .sex-holder .best .arcs{
+    float: right;
+}
+.sex .sex-holder .best{
+    border: 1px solid #212529;
+    padding: 11px 9px 0px;
+}
+.sex .sex-holder .allProducts{
+    margin-top: 40px;
+
+}
+.sex .sex-holder .allProducts .product-name{
+    font-size: 23px;
+    margin-bottom: 5px;
+
+}
+.sex .sex-holder .allProducts img{
+    width: 30%;
+
+}
+.sex .sex-holder .allProducts .bo-r{
+    border-right: 1px solid #6c757d;
+    padding-right: 5px;
+}
+.sex .sex-holder .allProducts .firstAllProducts{
+    margin-bottom: 30px;
+}
+/*******************************************************************************/
+.seven .seven-holder .best{
+    border: 1px solid #212529;
+    padding: 11px 9px 0px;
+}
+.seven .seven-holder img{
+    width: 100%;
+}
+.seven .seven-holder .seven-presentation{
+    padding:2% 0;
+}
+/*******************************************************************************/
+.customers .customers-holder {
+    padding:2% 0;
+}
+.customers .customers-holder img{
+    width: 100%;
+}
+/*******************************************************************************/
+.register {
+    margin-top: 20px;
+    padding: 3% 0;
+    color: #333;
+    background-color: rgb(229, 229, 229);
+}
+.register .register-holder .register-header .subscribe{
+    position: relative;
+    margin: 0% 0 0 23% !important;
+}
+.register .register-holder .register-header input{
+    position: relative;
+    border-radius: 20px;
+    width: 70%;
+    padding: 20px;
+    margin-top: 35px;
+    margin-bottom: 55px;
+}
+.register .register-holder .register-header button{
+    position: absolute;
+    top: 0px;
+    left: 58.2%;
+    background-color: #ffbc40;
+    border-radius: 0 20px 20px 0;
+    padding: 8px 12px 8px 22px;
+    color: #fff;
+}
+.register .register-holder .information h5{
+    margin-bottom: 25px;
+}
+/*******************************************************************************/
+footer{
+    padding: 1% 0 0;
+    background-color: #d5d5d5;
+}
+footer .footer-holder .copy{
+    float: left;
+}
+footer .footer-holder .copy span{
+    color: #d72727;
+}
+footer .footer-holder .social{
+    float: right;
+}
+footer .footer-holder .social ul li{
+    float: left;
+    margin-right: 25px;
+}
+footer .scrollButton{
+    display: none;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    padding: 10px 14px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+/*******************************************************************************/

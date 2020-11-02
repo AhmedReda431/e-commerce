@@ -1,0 +1,142 @@
+@media (max-width:767px){
+    img{
+        width: 100%;
+        height: 200px;
+    }
+    aside{
+        padding-bottom: 10px;
+    }
+    header .header-holder .row{
+        display: block;
+    }
+    header .header-holder input{
+        margin-bottom: 10px;
+    }
+    header .header-holder .search button{
+        left: 80%;
+    }
+    header .header-holder .languages-price .language{
+        float: left;
+        width: 50%;
+    }
+    header .header-holder .languages-price .language p{
+        margin: 0;
+    }
+    header .header-holder .languages-price .price{
+        float: none;
+        width: 50%;
+    }
+    header .header-holder .languages-price .price p{
+        margin: 0;
+    }
+    .firstHr{
+        margin-top: 10px;
+        margin-bottom: 14px;
+    }
+    .four .four-holder .row .side{
+        margin: auto;
+        width: 100%;
+    }
+    .four .four-holder .row .second-cont{
+        margin:0 -2px;
+    }
+    .four .four-holder .second-cont  .Gallery .straitLine{
+        display: none;
+    }
+    .four .four-holder .second-cont  .Gallery .hok{
+        margin:  0;
+    }
+    .four .four-holder .second-cont  .galleryCover img{
+        height: 248px;
+    }
+    .four .four-holder aside .pagination {
+        float: right;
+        margin-bottom: 0;
+    }
+    .hok .pagination {
+        float: right;
+    }
+    .register .register-holder .register-header .subscribe{
+            margin: 0% 0 0 0% !important;
+    }
+    .register .register-holder .register-header input{
+            width: 100%;
+            font-size: 12px;
+    }
+    .register .register-holder .register-header button{
+            left: 65%;
+    }
+    .register .register-holder  .information .row .col-4 p:nth-of-type(2){
+        word-break: break-word;
+    }
+    footer .footer-holder .copy{
+        margin: 0;
+        float: none;
+    }
+    footer .footer-holder .social{
+        margin: 0 ;
+        float: none;
+    }
+
+    .myNavbar .myNavbar-holder .BrabdLinks {
+        font-size: 15px;
+        padding-top: 5px;
+        padding-left: 0;
+    }
+    .four .four-holder .second-cont .Gallery .myButtons button{
+        margin-top: 10px;
+    }
+    .four .four-holder aside .aside-header{
+        padding-left: 0;
+    }
+    .row{
+        display: block !important;
+    }
+    .row > div{
+        max-width: 100%;
+        width: 100%;
+    }
+    footer{
+        padding: 10px;
+    }
+    .brandFonts .row {
+        display: flex !important;
+    }
+    .sex .sex-holder .allProducts .bo-r{
+        border-right: none;
+    }
+   input{
+        width: 84% !important;
+        border-radius: 20px 0 0 20px !important;
+    }
+}
+
+@media(min-width:767px) and (max-width:991.98px){
+    header{
+        padding: 2% 0 4%;
+    }
+    .languages-price{
+        padding-left: 30px;
+    }
+    .myNavbar .myNavbar-holder .myBrand {
+        display: inline-block;
+    }
+    .myNavbar .myNavbar-holder .BrabdLinks {
+        float: right;
+        padding-left: 0;
+        font-size: 16px;
+        padding-top: 25px;
+        line-height: 1;
+    }
+    .Gallery .line{
+        max-width: 20%;
+    }
+    .four .four-holder aside .asid-title {
+        display: inline-block;
+        float: none;
+    }
+    .four .four-holder aside .pagination {
+        float: none;
+        margin-bottom: 5px;
+    }
+}
