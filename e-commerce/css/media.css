@@ -55,6 +55,7 @@
     }
     .hok .pagination {
         float: right;
+        display: none;
     }
     .register .register-holder .register-header .subscribe{
             margin: 0% 0 0 0% !important;
